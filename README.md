@@ -1,4 +1,4 @@
-Demo project for portfolio.
+Demo project for Cloud Money  portfolio.
 
 The full version is this website from a clothes store of colombia www.hideshi-store.com
 
