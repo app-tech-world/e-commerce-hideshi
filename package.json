@@ -1,7 +1,10 @@
 {
-  "name": "ecommerce-pod-one",
+  "name": "ecommercecommerce-template-shopify",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Juan Elias Jabib y Samir Elias Jabib"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
