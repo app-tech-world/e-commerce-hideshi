@@ -2,26 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+    /* Brand pallete */
+    --fs-color-main-0: #0b0022;
+    --fs-color-main-1: #13013e;
+    --fs-color-main-2: #190054;
+    --fs-color-main-3: #41208d;
+    --fs-color-main-4: #6535d6;
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    --fs-color-accent-0: #25046d;
+    --fs-color-accent-1: #001082;
+    --fs-color-accent-2: #0017b9;
+    --fs-color-accent-3: #1930d3;
+    --fs-color-accent-4: #4d62ff;
+
+    --fs-color-neutral-0: #110035;
+    --fs-color-neutral-1: #260f5a;
+    --fs-color-neutral-2: #74808b;
+    --fs-color-neutral-3: #9099a2;
+    --fs-color-neutral-4: #c7ccd1;
+    --fs-color-neutral-5: #e3e6e8;
+    --fs-color-neutral-6: #816ba9;
+    --fs-color-neutral-7: #dfd2fc;
+  }
 }

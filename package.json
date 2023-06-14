@@ -2,16 +2,12 @@
   "name": "ecommercecommerce-template-shopify",
   "version": "0.1.0",
   "private": true,
-  "author": {
-    "name": "Juan Elias Jabib y Samir Elias Jabib"
-  },
+  "author": "Juan Elias Jabib y Samir Elias Jabib",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
     "test": "jest --watch",
     "test:ci": "jest --ci"
   },
@@ -31,18 +27,12 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "7.0.18",
-    "@storybook/addon-interactions": "7.0.18",
-    "@storybook/addon-links": "7.0.18",
-    "@storybook/blocks": "7.0.18",
-    "@storybook/nextjs": "7.0.18",
-    "@storybook/react": "7.0.18",
-    "@storybook/testing-library": "0.0.14-next.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
-    "eslint-plugin-storybook": "^0.6.12",
     "jest": "^29.5.0",
-    "jest-environment-jsdom": "^29.5.0",
-    "storybook": "7.0.18"
-  }
+    "jest-environment-jsdom": "^29.5.0"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/app-tech-world/e-commerce-hideshi",
+  "license": "MIT"
 }
